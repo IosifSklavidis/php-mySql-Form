@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+}
+
+.placeIcon {
+    font-family: fontawesome;
+}
+
+.bigtext {
+    width: 22%;
+    font-size: 92%;
+    padding-left:40%;
+    text-align: left;
+}
+
+input {
+    font-family: FontAwesome;
+    width:20%;
+    padding: 10px 22px;
+    border-radius: 5%;
+    background-color: rgb(236, 236, 236);
+    border: 1px solid darkgrey;
+   
+}
+
+.bigtext {
+      word-spacing: 20%;
+}
+
+a:link {
+    text-decoration: none;
+    color:black;
+  }
+
+  li {
+    display: inline;
+    padding: 0.5%;
+  }
+  
+  li a:hover {background-color: #f1f1f1;}
+
+.animation {
+    padding-top: 15%;
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+    animation: fadein 5s;
+    font-size: 60px;
+    color: wheat;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
